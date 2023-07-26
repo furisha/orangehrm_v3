@@ -1,0 +1,27 @@
+{
+  "credentials": {
+    "admin_username": "Admin",
+    "admin_password": "admin1231"
+  },
+  "users": {
+    "user_username": "test_username",
+    "user_lastname": "test_lastname",
+    "user_middlename": "test_middlename"
+  },
+  "endpoints": {
+    "login": "**/push",
+    "employees": "**/employees*",
+    "personal_details": "**/personal-details*",
+    "messages": "**/messages",
+    "employee_number": "empNumber/"
+  },
+  "status_code": {
+    "successful_message": "OK",
+    "successful": 200,
+    "not_modified": 304
+  },
+  "urls": {
+    "auth_login": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "dashboard": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+  }
+}
